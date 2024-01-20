@@ -2,7 +2,7 @@
   "name": "demo-power-rangers-back",
   "version": "1.0.0",
   "description": "API Rest de Power Rangers.",
-  "main": "index.js",
+  "main": "functions/server.js",
   "scripts": {
     "build": "netlify deploy --prod",
     "start": "node functions/server.js"
@@ -13,8 +13,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "netlify-cli": "^17.13.2",
-    "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0"
   }
 }
